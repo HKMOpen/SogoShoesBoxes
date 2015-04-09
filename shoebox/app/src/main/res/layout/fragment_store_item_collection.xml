@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/tabcontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.twotoasters.jazzylistview.JazzyGridView
+        android:id="@+id/list_jazzgrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:numColumns="2"
+        android:horizontalSpacing="@dimen/jazz_grid_spacing"
+        android:verticalSpacing="@dimen/jazz_grid_spacing"
+        android:background="@color/common_background"/>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:src="@drawable/ic_picnic_bag"
+        fab:fab_colorNormal="@color/primary_pref"
+        fab:fab_colorPressed="@color/primary_pref_v2"
+        fab:fab_colorRipple="@color/second_pref_v2"
+        fab:fab_type="normal"
+        android:layout_gravity="bottom|right" />
+
+
+    <View
+        android:id="@+id/screen_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTintMode="multiply"
+        android:background="@color/grey_900_sp"
+        android:visibility="gone" />
+</FrameLayout><!--
+
+
+</com.hkm.ui.BounceScoller.BounceScroller>--><!--
+<com.melnykov.fab.FloatingActionButton
+android:id="@+id/fab"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom|right"
+android:layout_margin="16dp"
+android:src="@drawable/ic_action_content_new"
+fab:fab_colorNormal="@color/primary"
+fab:fab_colorPressed="@color/primary_pressed"
+fab:fab_colorRipple="@color/ripple" />
+
+
+-->

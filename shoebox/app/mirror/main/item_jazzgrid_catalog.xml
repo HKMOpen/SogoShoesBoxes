@@ -1,0 +1,14 @@
+<!-- [ Mirror metadata ] generatedAt: 1428486819580 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/item_jazzgrid_catalog">
+        <!-- ImageView Examples:
+        <imagevi src="@drawable/image_resource" />
+        <imagevi src="relative_path/image.jpg" /> -->
+        <imagevi />
+    </_content>
+</screen>

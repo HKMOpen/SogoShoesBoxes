@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:context=".HBStoreV4"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerinscrollview">
+
+    <!-- <RelativeLayout
+         android:id="@+id/load_more"
+         android:layout_width="match_parent"
+         android:layout_height="60dp">
+
+         <ImageView
+             android:layout_centerInParent="true"
+             android:src="@drawable/hypebeastl"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="60dp"
+             android:layout_marginRight="60dp" />
+
+         <Button
+             android:id="@+id/login_now"
+             android:layout_width="50dp"
+             android:layout_height="match_parent"
+             android:layout_alignParentRight="true"
+             android:text="Login"
+             android:onClick="login_where_is" />
+     </RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+    <!-- android:layout_marginTop="60dp"-->
+    <com.comcast.freeflow.core.FreeFlowContainer
+        android:id="@+id/container"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--
+        <Button
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load More"
+            android:id="@+id/load_more" />-->
+
+</FrameLayout>

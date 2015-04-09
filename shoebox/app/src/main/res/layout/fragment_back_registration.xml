@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:orientation="vertical"
+    android:background="@color/common_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:text="Email"
+        android:textSize="@dimen/login_label_text_size"
+        android:textColor="@color/text_color_price"
+        pixlui:typeface="HelveticaNeue.ttf"
+        android:gravity="left"
+        android:layout_marginLeft="@dimen/login_side_margin"
+        android:layout_marginRight="@dimen/login_side_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.neopixl.pixlui.components.edittext.EditText
+        android:id="@+id/email"
+        android:text="login"
+        android:textSize="@dimen/single_brand_font_size"
+        android:textColor="@color/text_color_price"
+        pixlui:typeface="HelveticaNeue.ttf"
+        android:paddingBottom="@dimen/single_upper_text_padding_vertical"
+        android:paddingTop="@dimen/single_upper_text_padding_vertical"
+
+        android:layout_marginLeft="@dimen/login_side_margin"
+        android:layout_marginRight="@dimen/login_side_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:text="Password"
+        android:textSize="@dimen/login_label_text_size"
+        android:textColor="@color/text_color_price"
+        pixlui:typeface="HelveticaNeue.ttf"
+        android:gravity="left"
+        android:layout_marginLeft="@dimen/login_side_margin"
+        android:layout_marginRight="@dimen/login_side_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.neopixl.pixlui.components.edittext.EditText
+        android:id="@+id/pass"
+        android:text="input password"
+
+        android:textSize="@dimen/single_brand_font_size"
+        android:textColor="@color/text_color_price"
+        pixlui:typeface="HelveticaNeue.ttf"
+        android:paddingBottom="@dimen/single_upper_text_padding_vertical"
+        android:paddingTop="@dimen/single_upper_text_padding_vertical"
+
+        android:layout_marginLeft="@dimen/login_side_margin"
+        android:layout_marginRight="@dimen/login_side_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <com.hkm.ui.processbutton.iml.ActionProcessButton
+        android:layout_marginLeft="@dimen/login_side_margin"
+        android:layout_marginRight="@dimen/login_side_margin"
+        android:id="@+id/action_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/LoadButton" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:layout_marginLeft="@dimen/login_side_margin"
+        android:layout_marginRight="@dimen/login_side_margin"
+        android:textColor="@color/second_pref_v2"
+        android:text="@string/reg_notice"
+        android:textSize="@dimen/login_notice_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/switch_to_login"
+        android:text="existing account"
+        android:textSize="@dimen/single_brand_font_size"
+        android:textColor="@color/text_color_price"
+        pixlui:typeface="HelveticaNeue.ttf"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

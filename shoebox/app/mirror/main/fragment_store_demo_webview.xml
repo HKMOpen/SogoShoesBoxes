@@ -1,0 +1,11 @@
+<!-- [ Mirror metadata ] generatedAt: 1428486819572 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/fragment_store_demo_webview">
+        <store_webview url="http://www.google.com" />
+    </_content>
+</screen>

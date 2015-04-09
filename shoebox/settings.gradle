@@ -1,0 +1,5 @@
+include ':libHkmCheck', ':L-dialogs', ':Tabbasicdemo', ':materialtabslib', ':slidinglayer',
+        ':WheelViewLib', ':jsouptexample', ':daimajiaslider', ':OverDragLayout',
+        ':slidesidemenu', ':FreeFlow', ':freeflow_artbook', ':SlidrLib',
+        ':headergrid', ':MaterialTabsModule', ':dropdownbox', ':processButtonHkm',
+        ':app'

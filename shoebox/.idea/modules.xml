@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FreeFlow/FreeFlow.iml" filepath="$PROJECT_DIR$/FreeFlow/FreeFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L-dialogs/L-dialogs.iml" filepath="$PROJECT_DIR$/L-dialogs/L-dialogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialTabsModule/MaterialTabsModule.iml" filepath="$PROJECT_DIR$/MaterialTabsModule/MaterialTabsModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OverDragLayout/OverDragLayout.iml" filepath="$PROJECT_DIR$/OverDragLayout/OverDragLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidrLib/SlidrLib.iml" filepath="$PROJECT_DIR$/SlidrLib/SlidrLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tabbasicdemo/Tabbasicdemo.iml" filepath="$PROJECT_DIR$/Tabbasicdemo/Tabbasicdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WheelViewLib/WheelViewLib.iml" filepath="$PROJECT_DIR$/WheelViewLib/WheelViewLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daimajiaslider/daimajiaslider.iml" filepath="$PROJECT_DIR$/daimajiaslider/daimajiaslider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dropdownbox/dropdownbox.iml" filepath="$PROJECT_DIR$/dropdownbox/dropdownbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freeflow_artbook/freeflow_artbook.iml" filepath="$PROJECT_DIR$/freeflow_artbook/freeflow_artbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headergrid/headergrid.iml" filepath="$PROJECT_DIR$/headergrid/headergrid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hypebeaststore.iml" filepath="$PROJECT_DIR$/hypebeaststore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsouptexample/jsouptexample.iml" filepath="$PROJECT_DIR$/jsouptexample/jsouptexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libHkmCheck/libHkmCheck.iml" filepath="$PROJECT_DIR$/libHkmCheck/libHkmCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialtabslib/materialtabslib.iml" filepath="$PROJECT_DIR$/materialtabslib/materialtabslib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processButtonHkm/processButtonHkm.iml" filepath="$PROJECT_DIR$/processButtonHkm/processButtonHkm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidesidemenu/slidesidemenu.iml" filepath="$PROJECT_DIR$/slidesidemenu/slidesidemenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidinglayer/slidinglayer.iml" filepath="$PROJECT_DIR$/slidinglayer/slidinglayer.iml" />
+    </modules>
+  </component>
+</project>
+

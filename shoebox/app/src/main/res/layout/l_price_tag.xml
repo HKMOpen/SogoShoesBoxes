@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.neopixl.pixlui.components.textview.TextView
+
+        android:layout_marginLeft="@dimen/button_margin_horizontal"
+        android:layout_marginRight="@dimen/button_margin_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/single_product_title_font_size"
+        android:id="@+id/price_tag"
+        android:text="price tag"
+        android:textColor="#ffaaaaaa" />
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:text="on sales price tag"
+
+        android:layout_marginLeft="@dimen/button_margin_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/single_product_title_font_size"
+        android:id="@+id/sale_price_tag"
+        android:textColor="#ff9d261d" />
+
+</LinearLayout>

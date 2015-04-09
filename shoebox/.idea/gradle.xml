@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/FreeFlow" />
+            <option value="$PROJECT_DIR$/L-dialogs" />
+            <option value="$PROJECT_DIR$/MaterialTabsModule" />
+            <option value="$PROJECT_DIR$/OverDragLayout" />
+            <option value="$PROJECT_DIR$/SlidrLib" />
+            <option value="$PROJECT_DIR$/Tabbasicdemo" />
+            <option value="$PROJECT_DIR$/WheelViewLib" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/daimajiaslider" />
+            <option value="$PROJECT_DIR$/dropdownbox" />
+            <option value="$PROJECT_DIR$/freeflow_artbook" />
+            <option value="$PROJECT_DIR$/headergrid" />
+            <option value="$PROJECT_DIR$/jsouptexample" />
+            <option value="$PROJECT_DIR$/libHkmCheck" />
+            <option value="$PROJECT_DIR$/materialtabslib" />
+            <option value="$PROJECT_DIR$/processButtonHkm" />
+            <option value="$PROJECT_DIR$/slidesidemenu" />
+            <option value="$PROJECT_DIR$/slidinglayer" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
+

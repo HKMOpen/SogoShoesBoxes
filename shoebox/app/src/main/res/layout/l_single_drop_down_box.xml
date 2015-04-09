@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    style="@style/spinner_layout_style"
+    android:layout_height="match_parent">
+
+    <!--<Button
+        android:layout_centerInParent="true"
+        android:id="@+id/spinner_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:longClickable="false" />-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="7">
+
+        <com.neopixl.pixlui.components.textview.EllipsizingTextView
+            android:text="Select Variants"
+            pixlui:typeface="bebas.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="6" />
+
+        <com.neopixl.pixlui.components.imageview.ImageView
+            android:layout_width="30dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:layout_height="match_parent"
+            android:src="@drawable/dropdown_menu_arrow" />
+
+    </LinearLayout>
+</RelativeLayout>

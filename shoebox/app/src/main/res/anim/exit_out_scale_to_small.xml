@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  <translate
+          android:duration="300"
+          android:fromXDelta="0%"
+          android:toXDelta="-100%" />-->
+    <alpha
+        android:duration="@integer/hkm_anim_part_1"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.5" />
+    <alpha
+        android:startOffset="@integer/hkm_anim_part_1"
+        android:duration="@integer/hkm_anim_part_2"
+        android:fromAlpha="0.5"
+        android:toAlpha="0.5" />
+    <scale
+        android:duration="@integer/hkm_anim_part_1"
+        android:fromXScale="@fraction/hkm_scale_full"
+        android:fromYScale="@fraction/hkm_scale_full"
+        android:toXScale="@fraction/hkm_scale_small"
+        android:toYScale="@fraction/hkm_scale_small"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
+    <scale
+        android:startOffset="@integer/hkm_anim_part_1"
+        android:duration="@integer/hkm_anim_part_2"
+        android:fromXScale="@fraction/hkm_scale_small"
+        android:fromYScale="@fraction/hkm_scale_small"
+        android:toXScale="@fraction/hkm_scale_small"
+        android:toYScale="@fraction/hkm_scale_small"
+        android:pivotX="50%"
+        android:pivotY="50%" />
+</set>

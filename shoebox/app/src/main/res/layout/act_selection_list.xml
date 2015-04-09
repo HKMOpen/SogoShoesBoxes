@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/title_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/button_radius_edge"
+        android:background="@drawable/bottom_line"
+        android:textSize="@dimen/selection_title"
+        android:text="exe on as"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="@dimen/menu_item_height"
+        pixlui:typeface="Georgia.ttf"
+        android:textColor="@color/text_color_dark"
+        android:textAllCaps="true"
+
+        android:paddingBottom="@dimen/single_product_title_font_size"
+        android:paddingTop="@dimen/single_product_title_font_size"
+
+        />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false" />
+
+    <TextView
+        android:gravity="center_horizontal|center_vertical"
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No data" />
+</LinearLayout>
+ 

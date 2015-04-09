@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/vi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/debugtv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/white" />
+
+    <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/loading_bar"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:id="@+id/bottom_caption"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow_up"
+        android:paddingTop="@dimen/button_margin_horizontal"
+        android:orientation="vertical">
+
+        <com.neopixl.pixlui.components.textview.TextView xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/captiontv"
+            android:textSize="@dimen/jazz_item_font_size"
+            android:text="THIS IS FASTER TO BUILD IT AGAIN?\n HEROKU"
+            pixlui:typeface="Montserrat-Regular.ttf"
+            android:textColor="@color/second_pref"
+            android:textAllCaps="true"
+            android:layout_margin="@dimen/button_margin_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/closethis"
+            android:src="@drawable/close_ico"
+            android:layout_gravity="left"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:padding="10dp" />
+    </LinearLayout>
+</RelativeLayout>

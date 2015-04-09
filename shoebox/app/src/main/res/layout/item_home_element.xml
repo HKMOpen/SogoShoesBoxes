@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/box">
+
+    <ImageView
+        android:id="@+id/bpImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/box">
+
+    <com.neopixl.pixlui.components.imageview.ImageView
+        android:id="@+id/bpImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_margin="0dp" />
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/text_title"
+        android:textAllCaps="true"
+        android:text="test one in the middle now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        pixlui:typeface="bebas.ttf"
+        android:textColor="@color/common_background" />
+</RelativeLayout>

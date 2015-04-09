@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="@dimen/button_margin_horizontal"
+    android:paddingRight="@dimen/button_margin_horizontal"
+    android:layout_marginBottom="@dimen/margin_component_bottom">
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/title"
+
+        android:textSize="@dimen/single_brand_font_size"
+        pixlui:typeface="Georgia.ttf"
+        android:textColor="@color/text_color_single_brand"
+        android:paddingBottom="@dimen/text_padding_vertical"
+        android:paddingTop="@dimen/text_padding_vertical"
+        android:textAllCaps="true"
+
+
+
+        android:background="@drawable/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dump text for testing" />
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/context_conten"
+        android:textSize="@dimen/single_product_description_box"
+        android:paddingBottom="@dimen/text_padding_vertical"
+        android:paddingTop="@dimen/text_padding_vertical"
+        pixlui:typeface="HelveticaNeue.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="description" />
+</LinearLayout>

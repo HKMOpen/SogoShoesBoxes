@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_state_white">
+
+    <com.neopixl.pixlui.components.textview.TextView
+        pixlui:typeface="Montserrat-Regular.ttf"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_host_height"
+        android:id="@+id/label_field"
+        android:textSize="@dimen/jazz_item_font_size"
+        android:textAllCaps="true"
+        android:text="White Stapler" />
+
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:show_mode="pull_out"
+    app:drag_edge="right">
+
+    <RelativeLayout
+        android:tag="bottom_control"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:background="@color/divider_press">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="160dp"
+            android:layout_height="match_parent">
+
+
+            <com.neopixl.pixlui.components.textview.TextView
+                pixlui:typeface="Montserrat-Bold.ttf"
+                android:id="@+id/see"
+                android:text="Review"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/primary_dark_material_dark"
+                android:textSize="15dp"
+                android:gravity="center" />
+
+            <RelativeLayout
+                android:gravity="center"
+                android:layout_width="88dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:src="@drawable/close_ico"
+                    android:id="@+id/delete"
+                    android:text="REMOVE"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:scaleType="matrix"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:tag="top_control"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="center_horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_image_done"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent" />
+
+                <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/loadingb"
+                    android:layout_centerInParent="true"
+                    fab:mlpb_enable_circle_background="false"
+                    fab:mlpb_inner_radius="18dp"
+
+
+                    />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:id="@+id/brand"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/single_brand_font_size"
+
+                    pixlui:typeface="Montserrat-Regular.ttf"
+
+
+                    android:textColor="@color/text_color_single_brand"
+
+                    />
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:id="@+id/product_title"
+
+                    pixlui:typeface="Montserrat-Bold.ttf"
+                    android:textSize="@dimen/single_product_title_font_size"
+                    android:textColor="@color/text_color_single_title"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</com.daimajia.swipe.SwipeLayout>

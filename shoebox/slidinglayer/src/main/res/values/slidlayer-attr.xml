@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidLayer">
+        <attr name="shadowDrawable" format="boolean" />
+        <attr name="shadowSize" format="dimension" />
+        <attr name="changeStateOnTap" format="boolean" />
+        <attr name="offsetDistance" format="dimension" />
+        <attr name="previewOffsetDistance" format="dimension" />
+        <attr name="stickTo" format="enum">
+            <enum name="right" value="-1" />
+            <enum name="left" value="-2" />
+            <enum name="top" value="-3" />
+            <enum name="bottom" value="-4" />
+        </attr>
+    </declare-styleable>
+</resources>

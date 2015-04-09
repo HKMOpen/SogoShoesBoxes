@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        android:layout_marginTop="@dimen/tab_host_height"
+
+        >
+        <!--
+
+
+                android:layout_marginTop="@dimen/tab_host_height"
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider_press" />-->
+        <!-- for Text Tabs -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <com.neopixl.pixlui.components.button.Button
+                android:id="@+id/clear_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Clear Filter"
+                pixlui:typeface="Montserrat-Bold.ttf"
+                style="@style/button_store_front" />
+            <!--button separator-->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="@dimen/tab_host_height"
+                android:background="@color/divider_press" />
+
+            <com.neopixl.pixlui.components.button.Button
+                pixlui:typeface="Montserrat-Bold.ttf"
+                android:id="@+id/view_wish_list"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Wish List"
+                style="@style/button_store_front" />
+
+        </LinearLayout>
+
+   <!--     <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_press" />-->
+
+        <!--   <TextView
+               android:background="@color/grey_300"
+               android:text="Free Shipping on Orders Above $100 USD*"
+               android:layout_width="match_parent"
+               android:layout_height="25dp" />-->
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/activity_main_swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/container_jazz_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    </LinearLayout>
+
+
+    <com.hb.hkm.slidinglayer.SlidLayer xmlns:slidingLayer="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_out_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        slidingLayer:stickTo="top"
+
+        android:layout_marginTop="@dimen/tab_host_height"
+        slidingLayer:changeStateOnTap="true">
+
+        <!--
+
+            slidingLayer:shadowSize="20dp"
+        slidingLayer:shadowDrawable="@drawable/shadow_down"
+
+
+           slidingLayer:shadowDrawable="@drawable/sidebar_shadow"
+           slidingLayer:shadowSize="@dimen/shadow_size"
+           slidingLayer:offsetDistance="@dimen/offset_distance"
+           slidingLayer:previewOffsetDistance="@dimen/preview_offset_distance"
+           slidingLayer:stickTo="top|bottom|right|left"
+           slidingLayer:changeStateOnTap="true">-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_background">
+
+            <FrameLayout
+                android:id="@+id/filter_layouts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </com.hb.hkm.slidinglayer.SlidLayer>
+
+
+    <it.neokree.materialtabs.MaterialTabHost xmlns:MaterialTabHost="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/materialTabHost"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_host_height"
+        MaterialTabHost:textColor="@color/tabHostTextColor"
+        MaterialTabHost:materialTabsPrimaryColor="@color/tabHostBackgroundColor"
+        MaterialTabHost:accentColor="@color/tabHostAccentColor"
+        MaterialTabHost:hasIcons="false"
+        MaterialTabHost:nonFixTabsCountStart="5"
+        android:layout_alignParentTop="true"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp" />
+
+    <!--  <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/divider_press"
+          android:layout_alignParentTop="true" />-->
+
+    <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+        android:id="@+id/circlepb"
+        fab:mlpb_show_arrow="false"
+        fab:mlpb_progress_color="@color/second_grey_bg"
+        fab:mlpb_enable_circle_background="false"
+        fab:mlpb_inner_radius="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical" />
+
+</FrameLayout>

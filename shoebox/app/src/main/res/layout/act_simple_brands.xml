@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background">
+
+    <fragment
+        android:id="@+id/item_list"
+        android:name="com.hb.hkm.hypebeaststore.fragments.brandpage.branditem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SimpleBrands"
+        tools:layout="@android:layout/list_content" />
+
+    <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+        android:id="@+id/circlepb"
+
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        fab:mlpb_show_arrow="false"
+        fab:mlpb_progress_color="@color/second_grey_bg"
+        fab:mlpb_enable_circle_background="false"
+        fab:mlpb_inner_radius="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>
